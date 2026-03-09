@@ -20,13 +20,19 @@ def converter_para_float(valor):
     if pd.isna(valor) or valor == '': return 0.0
     if isinstance(valor, (int, float)): return float(valor)
     try:
-        v = str(valor).replace('R$', '').replace(' ', '').replace('.', '').replace(',', '.')
+        v = str(valor).replace('R$', '').strip()
+        # Se for formato brasileiro (ex: 1.000,50), removemos o ponto e trocamos vírgula por ponto
+        if ',' in v and '.' in v and v.rfind(',') > v.rfind('.'):
+            v = v.replace('.', '').replace(',', '.')
+        elif ',' in v and '.' not in v: # Apenas vírgula (ex: 1000,50)
+            v = v.replace(',', '.')
         return float(v)
     except: return 0.0
 
 def limpar_colunas(df):
     if df.empty: return df
-    df.columns = [str(c).strip().lower() for c in df.columns]
+    # A mágica aqui: removemos espaços vazios e sublinhados dos cabeçalhos
+    df.columns = [str(c).strip().lower().replace(' ', '').replace('_', '') for c in df.columns]
     mapa = {'exercicio': 'ano', 'ano_licitacao': 'ano', 'exercicio_contrato': 'ano'}
     df.rename(columns=mapa, inplace=True)
     return df
@@ -34,24 +40,38 @@ def limpar_colunas(df):
 def carregar_csv_seguro(nome_arquivo, separador=';'):
     caminho = os.path.join(PASTA_CACHE, nome_arquivo)
     if not os.path.exists(caminho): return pd.DataFrame()
+    
+    # Tenta ler com o separador inicial (ponto e vírgula)
     try:
         df = pd.read_csv(caminho, sep=separador, encoding='utf-8', on_bad_lines='skip', low_memory=False)
+        if len(df.columns) == 1: # Se não dividiu direito, tenta vírgula
+            df = pd.read_csv(caminho, sep=',', encoding='utf-8', on_bad_lines='skip', low_memory=False)
     except:
         df = pd.read_csv(caminho, sep=separador, encoding='latin1', on_bad_lines='skip', low_memory=False)
+        if len(df.columns) == 1:
+            df = pd.read_csv(caminho, sep=',', encoding='latin1', on_bad_lines='skip', low_memory=False)
+            
     return limpar_colunas(df)
 
 def carregar_todos_os_anos(prefixo):
     arquivos = [f for f in os.listdir(PASTA_CACHE) if f.startswith(prefixo) and f.endswith('.csv')]
     dfs = []
     for f in arquivos:
+        # TENTA PONTO E VÍRGULA PRIMEIRO (Evita quebrar os centavos)
         try:
-            temp_df = pd.read_csv(os.path.join(PASTA_CACHE, f), sep=',', encoding='utf-8', on_bad_lines='skip')
+            temp_df = pd.read_csv(os.path.join(PASTA_CACHE, f), sep=';', encoding='utf-8', on_bad_lines='skip')
+            if len(temp_df.columns) == 1:
+                temp_df = pd.read_csv(os.path.join(PASTA_CACHE, f), sep=',', encoding='utf-8', on_bad_lines='skip')
         except:
             temp_df = pd.read_csv(os.path.join(PASTA_CACHE, f), sep=';', encoding='latin1', on_bad_lines='skip')
+            if len(temp_df.columns) == 1:
+                temp_df = pd.read_csv(os.path.join(PASTA_CACHE, f), sep=',', encoding='latin1', on_bad_lines='skip')
+        
         if not temp_df.empty:
             match = re.search(r'(\d{4})', f)
             if match: temp_df['ano'] = int(match.group(1))
             dfs.append(limpar_colunas(temp_df))
+            
     if not dfs: return pd.DataFrame()
     
     df_final = pd.concat(dfs, ignore_index=True)
@@ -68,8 +88,8 @@ restos_df = carregar_todos_os_anos("restos_")
 licitacoes_df = carregar_csv_seguro("licitacoes.csv")
 contratos_df = carregar_csv_seguro("contratos.csv")
 
-if not contratos_df.empty and 'valor total' in contratos_df.columns:
-    contratos_df['valor total'] = contratos_df['valor total'].apply(converter_para_float)
+if not contratos_df.empty and 'valortotal' in contratos_df.columns:
+    contratos_df['valortotal'] = contratos_df['valortotal'].apply(converter_para_float)
 
 col_est = next((c for c in licitacoes_df.columns if 'estimado' in c), None)
 col_hom = next((c for c in licitacoes_df.columns if 'homologado' in c), None)
@@ -195,7 +215,7 @@ def render_page(path):
         fig.add_trace(go.Scatter(x=des_anual['ano'], y=np.poly1d(np.polyfit(des_anual['ano'], des_anual['valorempenhado'], 1))(des_anual['ano']), name='Tendência Desp.', line=dict(color='#991B1B', dash='dot')))
     fig.update_layout(title="Equilíbrio Orçamentário Anual com Tendência", barmode='group', template="plotly_white")
 
-    total_con = contratos_df['valor total'].sum() if not contratos_df.empty and 'valor total' in contratos_df.columns else 0
+    total_con = contratos_df['valortotal'].sum() if not contratos_df.empty and 'valortotal' in contratos_df.columns else 0
     ultima_rec = rec_anual['valorarrecadado'].iloc[-1] if not rec_anual.empty else 0
     ano_rec = int(rec_anual['ano'].iloc[-1]) if not rec_anual.empty else ""
 
@@ -227,18 +247,18 @@ def update_desp(orgao):
 def update_contrato(forn):
     if contratos_df.empty: return dbc.Alert("Sem dados", color="danger")
     if forn == 'TOTAL':
-        df_top = contratos_df.groupby('fornecedor')['valor total'].sum().nlargest(10).reset_index()
-        fig = px.bar(df_top, x='valor total', y='fornecedor', orientation='h', title="Top 10 Fornecedores", template="plotly_white", color_discrete_sequence=['#3B82F6'])
+        df_top = contratos_df.groupby('fornecedor')['valortotal'].sum().nlargest(10).reset_index()
+        fig = px.bar(df_top, x='valortotal', y='fornecedor', orientation='h', title="Top 10 Fornecedores", template="plotly_white", color_discrete_sequence=['#3B82F6'])
         fig.update_layout(yaxis={'categoryorder':'total ascending'})
         return html.Div([
-            dbc.Row([dbc.Col(dbc.Card(dbc.CardBody([html.H4(format_currency(contratos_df['valor total'].sum()), className="text-primary"), html.P("Volume Financeiro Total")]), className="border-0 shadow-sm mb-4"), width=6)]),
+            dbc.Row([dbc.Col(dbc.Card(dbc.CardBody([html.H4(format_currency(contratos_df['valortotal'].sum()), className="text-primary"), html.P("Volume Financeiro Total")]), className="border-0 shadow-sm mb-4"), width=6)]),
             dbc.Card(dbc.CardBody(dcc.Graph(figure=fig)), className="border-0 shadow-sm")
         ])
     else:
         df_f = contratos_df[contratos_df['fornecedor'] == forn]
         cols = [{"name": i.upper(), "id": i} for i in df_f.columns if i not in ['ano', 'fornecedor']]
         return html.Div([
-            dbc.Row([dbc.Col(dbc.Card(dbc.CardBody([html.H4(format_currency(df_f['valor total'].sum()), className="text-primary"), html.P(f"Total Contratado: {forn}")]), className="border-0 shadow-sm mb-4"), width=12)]),
+            dbc.Row([dbc.Col(dbc.Card(dbc.CardBody([html.H4(format_currency(df_f['valortotal'].sum()), className="text-primary"), html.P(f"Total Contratado: {forn}")]), className="border-0 shadow-sm mb-4"), width=12)]),
             dbc.Card(dbc.CardBody(dash_table.DataTable(data=df_f.to_dict('records'), columns=cols, page_size=10, style_table={'overflowX': 'auto'}, style_header={'backgroundColor': '#F3F4F6', 'fontWeight': 'bold'})), className="border-0 shadow-sm")
         ])
 
@@ -262,4 +282,3 @@ def update_licitacao(mod):
 
 if __name__ == '__main__':
     app.run(debug=False, host='0.0.0.0', port=7860)
-    
