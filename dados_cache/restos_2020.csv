@@ -1,0 +1,45 @@
+orgaoCodigo,orgaoDescricao,unidadeCodigo,unidadeDescricao,fonteRecurso,fonteRecursoDescricao,cpfCnpjCredor,nomeCredor,valorEmpenhado,valorProcessadoInscrito,valorProcessadoCancelado,valorNaoProcessadoInscrito,valorNaoProcessadoCancelado,valorNaoProcessadoLiquidado,valorPagar,valorPago,valorPagoProcessado,valorPagoNaoProcessado
+2,PREFEITURA MUNICIPAL,8,Secretaria Municipal de Administração e Logística,250070006000,Superávit Financeiro - Recursos Ordinários,042.338.011-74,MARIELLY DA COSTA LEITE,27.36,27.36,0,0.00,0,0,27.36,0,0,0
+2,PREFEITURA MUNICIPAL,12,Secretaria Municipal de Educação,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,046.177.509-32,LUCIANA SILVA DE SOUZA,1.00,1.00,0,0.00,0,0,1.00,0,0,0
+2,PREFEITURA MUNICIPAL,12,Secretaria Municipal de Educação,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,312.642.049-49,LUZIA DE SOUZA,0.09,0.09,0,0.00,0,0,0.09,0,0,0
+2,PREFEITURA MUNICIPAL,16,Secretaria Municipal de Obras,150070005000,Recursos Ordinários,00.851.016/0001-08,OSVALDO DIAS DA SILVA EIRELI,258762.76,258762.76,0,0.00,0,0,258762.76,0,0,0
+2,PREFEITURA MUNICIPAL,16,Secretaria Municipal de Obras,150070005000,Recursos Ordinários,17.180.557/0001-54,KUHRA- PRESTADORA DE SERVIÇOS E TERRAPLENAGEM-EIRE,14253.51,14253.51,0,0.00,0,0,14253.51,0,0,0
+2,PREFEITURA MUNICIPAL,16,Secretaria Municipal de Obras,150070005000,Recursos Ordinários,416.708.769-34,LUIZ ARINO DE SOUZA,4051.04,4051.04,0,0.00,0,0,4051.04,0,0,0
+2,PREFEITURA MUNICIPAL,18,"Secretaria Municipal de Desenv,Econômico e Receita",1005000,Recursos Ordinários,12.604.899/0001-30,NAVEGANTES COMERCIO DE COMBUSTIVEL EIRELI,638.62,0,0,638.62,0,0,638.62,0,0,0
+2,PREFEITURA MUNICIPAL,20,Secretaria Municipal de Planejamento Urbano,3006000,Superávit Financeiro - Recursos Ordinários,12.604.899/0001-30,NAVEGANTES COMERCIO DE COMBUSTIVEL EIRELI,612.30,0,0,612.30,0,0,612.30,0,0,0
+3,FUNDO MUNICIPAL DE ASSISTÊNCIA SOCIAL,1,Fundo Municipal de Assistência Social,1355035,Transferências do Sistema Único de Assistência Social - SUAS/União,12.604.899/0001-30,NAVEGANTES COMERCIO DE COMBUSTIVEL EIRELI,11264.19,0,0,11264.19,0,0,11264.19,0,0,0
+3,FUNDO MUNICIPAL DE ASSISTÊNCIA SOCIAL,1,Fundo Municipal de Assistência Social,150070005000,Recursos Ordinários,02.667.539/0001-24,CENTRO DE CONVIVÊNCIA POMMERN HEIN,64630.00,0,0,64630.00,0,0,64630.00,0,0,0
+5,FUNDO MUNICIPAL DE SAÚDE,1,Fundo Municipal de Saúde,162170005067,Transferências do Sistema Único de Saúde - SUS/Estado,85.104.289/0001-41,MDM COMERCIO E SERVICOS LTDA - EPP,30153.47,30153.47,0,0.00,0,0,30153.47,0,0,0
+9,SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO E LOGÍSTICA,1,Diretoria de Gestão de Recursos Humanos,150070005000,Recursos Ordinários,169.642.038-50,JOSE SERGIO RAMOS VIEIRA,4041.46,0,0,0,0,0,4041.46,0,0,0
+9,SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO E LOGÍSTICA,1,Diretoria de Gestão de Recursos Humanos,150070005000,Recursos Ordinários,351.955.339-20,MILTON EUGENIO MULLER,1838.17,0,0,0,0,0,1838.17,0,0,0
+9,SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO E LOGÍSTICA,2,Diretoria de Gestão de Bens Materiais e Serviços,150070005000,Recursos Ordinários,03.999.762/0001-31,ELMO PAPELARIA LTDA ME,230.00,0,0,0,0,0,230.00,0,0,0
+11,SECRETARIA MUNICIPAL DO DESENVOLVIMENTO ECONÔMICO,1,Diretoria de Apoio à indústria e ao Comércio,150070005000,Recursos Ordinários,06.010.419/0001-00,ADRVALE - AGENCIA DE DESENVOLVIMENTO REGIONAL,10994.53,0,0,0,0,0,10994.53,0,0,0
+11,SECRETARIA MUNICIPAL DO DESENVOLVIMENTO ECONÔMICO,1,Diretoria de Apoio à indústria e ao Comércio,170070000061,Recursos de Convênios - União,06.010.419/0001-00,ADRVALE - AGENCIA DE DESENVOLVIMENTO REGIONAL,98950.75,0,0,0,0,0,98950.75,0,0,0
+12,SECRETARIA MUNICIPAL DE ASSISTÊNCIA SOCIAL,1,Fundação Municipal de Vigilância e Trânsito,150070005000,Recursos Ordinários,007.049.219-01,FERNANDA BRAVIN,1.00,0,0,0,0,0,1.00,0,0,0
+13,SECRETARIA DA EDUCAÇÃO,1,Instituto de Previdência Social dos Servidores Mun,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,351.712.789-20,JOYCE FREIGANG,398.75,0,0,0,0,0,398.75,0,0,0
+13,SECRETARIA DA EDUCAÇÃO,1,Instituto de Previdência Social dos Servidores Mun,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,816.619.599-20,ELIANE APARECIDA DA LUZ PETTER,6966.85,0,0,0,0,0,6966.85,0,0,0
+13,SECRETARIA DA EDUCAÇÃO,2,Diretoria Pedagógica,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,004.612.859-08,ANDREA APARECIDA INACIO,32.66,0,0,0,0,0,32.66,0,0,0
+13,SECRETARIA DA EDUCAÇÃO,2,Diretoria Pedagógica,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,050.887.349-56,CAMILA REISER ROSA,1.00,0,0,0,0,0,1.00,0,0,0
+13,SECRETARIA DA EDUCAÇÃO,2,Diretoria Pedagógica,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,052.776.009-90,MARIA IOLANDA DA COSTA,1066.80,0,0,0,0,0,1066.80,0,0,0
+13,SECRETARIA DA EDUCAÇÃO,2,Diretoria Pedagógica,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,056.049.219-71,RENE FANTIN ARNOLDO,59.13,0,0,0,0,0,59.13,0,0,0
+13,SECRETARIA DA EDUCAÇÃO,2,Diretoria Pedagógica,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,095.845.709-35,KARLA CRISTIANE BRANDAO BRUNO,651.73,0,0,0,0,0,651.73,0,0,0
+13,SECRETARIA DA EDUCAÇÃO,2,Diretoria Pedagógica,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,221.146.539-00,MARINEY APARECIDA MAZURECKI,250.03,0,0,0,0,0,250.03,0,0,0
+13,SECRETARIA DA EDUCAÇÃO,2,Diretoria Pedagógica,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,517.136.409-53,SONIA REGINA PINHEIRO,25.88,0,0,0,0,0,25.88,0,0,0
+13,SECRETARIA DA EDUCAÇÃO,2,Diretoria Pedagógica,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,693.375.949-00,EDICLEIA LEIRIA DA SILVA,2377.85,0,0,0,0,0,2377.85,0,0,0
+13,SECRETARIA DA EDUCAÇÃO,2,Diretoria Pedagógica,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,705.573.499-15,ANA JULIA MARCIANO DA ROSA,338.09,0,0,0,0,0,338.09,0,0,0
+13,SECRETARIA DA EDUCAÇÃO,2,Diretoria Pedagógica,150010015001,Receitas de Impostos e de Transferência de Impostos - Educação,850.667.709-25,MARLI COUTO DE OLIVEIRA,800.11,0,0,0,0,0,800.11,0,0,0
+17,SECRETARIA MUNICIPAL DE OBRAS,1,Diretoria de Operações,150070005000,Recursos Ordinários,015.721.939-99,JOSE CARLOS DE SOUZA,144.80,0,0,0,0,0,144.80,0,0,0
+17,SECRETARIA MUNICIPAL DE OBRAS,1,Diretoria de Operações,150070005000,Recursos Ordinários,162.263.999-53,MARCIO CRUZ,1.00,0,0,0,0,0,1.00,0,0,0
+17,SECRETARIA MUNICIPAL DE OBRAS,1,Diretoria de Operações,150070005000,Recursos Ordinários,169.642.038-50,JOSE SERGIO RAMOS VIEIRA,380.27,0,0,0,0,0,380.27,0,0,0
+17,SECRETARIA MUNICIPAL DE OBRAS,1,Diretoria de Operações,150070005000,Recursos Ordinários,492.444.699-87,MARCINDO GOMES DA SILVA,672.59,0,0,0,0,0,672.59,0,0,0
+17,SECRETARIA MUNICIPAL DE OBRAS,1,Diretoria de Operações,150070005000,Recursos Ordinários,520.701.749-72,IVONE JOAQUIM ADAO,424.34,0,0,0,0,0,424.34,0,0,0
+17,SECRETARIA MUNICIPAL DE OBRAS,1,Diretoria de Operações,150070005000,Recursos Ordinários,729.519.588-20,OSNI FLORENCIO ROSA,742.76,0,0,0,0,0,742.76,0,0,0
+17,SECRETARIA MUNICIPAL DE OBRAS,1,Diretoria de Operações,150070005000,Recursos Ordinários,827.910.749-53,MARCOS LOPES,3712.33,0,0,0,0,0,3712.33,0,0,0
+23,FUNDO MUNICIPAL DE ASSISTÊNCIA SOCIAL,1,Fundo Municipal de Assistência Social,150070005000,Recursos Ordinários,02.667.539/0001-24,CENTRO DE CONVIVÊNCIA POMMERN HEIN,19740.00,0,0,0,0,0,19740.00,0,0,0
+23,FUNDO MUNICIPAL DE ASSISTÊNCIA SOCIAL,1,Fundo Municipal de Assistência Social,266070003510,Superávit Financeiro/2017 - Outras transferências de recursos para o Fundo de Assistência Social,574.297.829-49,ZELI DA SILVA,1.00,0,0,0,0,0,1.00,0,0,0
+25,FUNDO MUNICIPAL DE SAÚDE,1,Diretoria Administrativa,150010025002,Receitas de Impostos e de Transferência de Impostos - Saúde,017.777.859-87,JAIRO CASTELAN,1923.87,0,0,0,0,0,1923.87,0,0,0
+25,FUNDO MUNICIPAL DE SAÚDE,1,Diretoria Administrativa,150010025002,Receitas de Impostos e de Transferência de Impostos - Saúde,309.375.909-91,ISOLETE DA CONCEIÇÃO DELFINO DO NASCIMENTO,1.00,0,0,0,0,0,1.00,0,0,0
+25,FUNDO MUNICIPAL DE SAÚDE,1,Diretoria Administrativa,150010025002,Receitas de Impostos e de Transferência de Impostos - Saúde,440.593.889-04,RENATO GASPERI,1005.47,0,0,0,0,0,1005.47,0,0,0
+25,FUNDO MUNICIPAL DE SAÚDE,1,Diretoria Administrativa,150010025002,Receitas de Impostos e de Transferência de Impostos - Saúde,819.220.359-04,JOSE ROBERTO VIEIRA II,3175.52,0,0,0,0,0,3175.52,0,0,0
+25,FUNDO MUNICIPAL DE SAÚDE,1,Diretoria Administrativa,150010025002,Receitas de Impostos e de Transferência de Impostos - Saúde,927.706.818-34,ELIANA ROMAO,4226.43,0,0,0,0,0,4226.43,0,0,0
+25,FUNDO MUNICIPAL DE SAÚDE,8,Bloco Investimento,163170003300,Transferências de convênios - União\Saúde,20.985.955/0001-52,FORTE ROCHA CONSTRUTORA LTDA ME,50143.68,0,0,0,0,0,50143.68,0,0,0

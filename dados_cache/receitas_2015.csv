@@ -1,0 +1,171 @@
+contaCodigo,contaDescricao,valorArrecadado
+4111202000000000000,Imposto s/ Propriedade Predial e Territ. Urbana,9912368.56
+4111204310000000000,IRRF s/ os Rendimentos do Trabalho,3788582.45
+4111204340000000000,IRRF s/ Outros Rendimentos,203834.40
+4111208000000000000,ITBI e de Direitos Reais sobre Imóveis,6868716.33
+4111305000000000000,Imposto sobre Serviços de Qualquer Natureza,24343857.97
+4112117000000000000,Taxa de Fiscalização de Vigilância Sanitária,309365.44
+4112125000000000000,Tx de Funcionamento Estab Comer/Indús/P.Serviços,1028429.58
+4112129000000000000,Taxa de Licença para Execução de Obras,250785.55
+4112299000000000000,Outras Taxas pela Prestação de Serviços,593088.85
+4113004000000000000,Contrib p/ Pavimentação e Obras Complementares,162361.03
+4121029070000000000,Contrib de Servidor Ativo para o RPPS,6813897.41
+4121029090000000000,Contribuições de Servidor Inativo para o RPPS,32134.33
+4121029110000000000,Contribuições de Pensionista para o RPPS,11835.29
+4123000000000000000,CONTRIB P/CUSTEIO DO SERVIÇO DE ILUMINAÇÃO PÚBLICA,5136040.93
+4132501020000000000,Rec. de Remun. Dep. Banc. Rec. Vinc.- FUNDEB,154546.38
+4132501030100000000,Rec. de Remun. Dep. Banc. Rec. Vinc. - Atenção Bás,19197.83
+4132501030200000000,Rec. de Remun. Dep. Banc. Rec. Vinc. - Atenção de,28581.98
+4132501030300000000,Rec. de Remun. Dep. Banc. Rec. Vinc. - Vigilância,42990.35
+4132501030400000000,Rec. de Remun. Dep. Banc. Rec. Vinc. - Assistência,4658.37
+4132501030500000000,Rec. de Remun. Dep. Banc. Rec. Vinc. - Gestão do S,3195.70
+4132501030600000000,Rec. de Remun. Dep. Banc. Rec. Vinc. - SUS União,62303.75
+4132501030700000000,Rec. de Remun. Dep. Banc. Rec. Vinc. - SUS Estado,75760.11
+4132501030800000000,Rec. de Remun. Dep. Banc. Rec. Vinc. - Recurso Pró,5793.00
+4132501050100000000,Rec. de Rem. Dep. Banc. REc. Vinc. - MDE - Sal. Ed,158829.39
+4132501050200000000,Rec. de Rem. Dep. Banc. REc. Vinc. - MDE - PNATE,520.93
+4132501050300000000,Rec. de Rem. Dep. Banc. REc. Vinc. - MDE - Conv. E,2589.61
+4132501050500000000,Rec. de Rem. Dep. Banc. REc. Vinc. - MDE - Conv. U,155690.35
+4132501050600000000,Rec. de Rem. Dep. Banc. REc. Vinc. - MDE - PNAE,56519.35
+4132501050700000000,Rec. de Rem. Dep. Banc. Rec. Vinculados - MDE - PDDE,46.77
+4132501060000000000,Rec. de Remun. Dep. Banc. Rec. Vinc. - ASPS,10219.34
+4132501100000000000,Rec de Remun Dep Banc Rec Vinculado - FNAS,42893.63
+4132501110000000000,Rec. de Remun Dep Banc Rec Vinculado - PETI,1298.78
+4132501160000000000,Rec. de Remun Dep Banc Rec Vinculado - Convênio do,24038.98
+4132501180000000000,Rec. de Remun Dep Banc Rec Vinculado - Diretamente arrecadado,73140.17
+4132501190000000000,Rec. de Remun Dep Banc Rec Vinculado - SUAS/ESTADO,6038.96
+4132501200000000000,Rec. de Remun Dep Banc Rec Vinculado - SUS ESTADO,11753.75
+4132501990100000000,Rec. de Remun.de Outros Dep. Banc. Rec. Vinc. - CI,2679.69
+4132501990300000000,Rec. de Remun.de Outros Dep. Banc. Rec. Vinc. - Re,72601.65
+4132501990400000000,Rec. de Remun.de Outros Dep. Banc. Rec. Vinc. - Re,67564.21
+4132501990500000000,Rec. de Remun.de Outros Dep. Banc. Rec. Vinc. - Co,3614.58
+4132501990600000000,Rec. de Remun.de Outros Dep. Banc. Rec. Vinc. - Es,8390.04
+4132501990900000000,Rec. de Remun.de Outros Dep. Banc. Rec. Vinc. - Po,7400.19
+4132501991000000000,Rec. de Remun.de Outros Dep. Banc. Rec. Vinc. - Po,31290.40
+4132501991100000000,Rec. de Remun.de Outros Dep. Banc. Rec. Vinc. - PM,8537.52
+4132501991200000000,Rec. de Remun.de Outros Dep. Banc. Rec. Vinc. - Taxa de Administração,178464.29
+4132502990100000000,Remun. de Outros Depósitos de Rec. não Vinc. - ORD,929649.90
+4132502990200000000,Remun. de Outros Depósitos de Rec. não Vinc. - COS,171036.93
+4132502990300000000,Remun. de Outros Depósitos de Rec. não Vinc. - DAE,84643.37
+4132502990400000000,Remun. de Outros Depósitos de Rec. não Vinc. - Rec,11503.08
+4132502990500000000,Remun. de Outros Depósitos de Rec. não Vinc. - Recurso Ordinário,5644.08
+4132810000000000000,Remuneração dos Investimentos do RPPS Renda Fixa,5907554.62
+4132820000000000000,Remuneração dos Investimentos do RPPS Renda Variáv,11760.00
+4133399000000000000,Outras Rec de Conc e Perm - Dir de Uso de Bens Púb,21690.00
+4133901000000000000,Regularização de Construções Irregulares e Clandestinas - Lei Complementar nº 223/2014,26366.60
+4160013010000000000,Serviços de Inscrição em Concursos Públicos,119171.00
+4160013990000000000,Outros Serviços Administrativos,476252.50
+4160014000000000000,Serviços de Inspeção e Fiscalização,1140803.67
+4160017000000000000,Serviços Agropecuários,9803.36
+4160019000000000000,Serviços Recreativos e Culturais,38120.86
+4160041000000000000,Serv. de Captação/Adução/Trat/Res e Dist. de Água,16343633.94
+4160046000000000000,Serviços de Cemitérios,1767.35
+4160099000000000000,Outros Serviços,5693.46
+4172101020000000000,Cota-Parte do Fundo de Participação dos Municípios,23565059.52
+4172101030000000000,Cota-Parte do Fundo de Participação do Municípios - 1% - Cota - Dezembro,1033313.21
+4172101040000000000,Cota-Parte do Fundo de Participação do Municípios - 1% - EC 84/2014,278903.44
+4172101050000000000,Cota-Parte do Imp. s/ a Propr. Territorial Rural,28053.37
+4172101320000000000,"Cota-Parte Imp.s/Oper.Crédito, Câmbio e Seguro",59028.47
+4172122700000000000,Cota-Parte do Fundo Especial do Petróleo - FEP,264226.39
+4172133010000000000,Recurso Piso de Atenção Básica -  PAB Fixo - Feder,1402808.00
+4172133020000000000,Recurso Programa Saúde da Familia - PSF - Federal,768244.10
+4172133030000000000,Recurso Programa Agente Comunitário de Saúde - PAC,768459.90
+4172133050000000000,Recurso Saúde Bucal - PSF ODONTO - Federal,345650.00
+4172133070000000000,Recurso Vigilância Epidemiológica - Federal,243008.20
+4172133080000000000,Incentivo Programa Nacional de HIV/AIDS e DST - Fe,86166.63
+4172133100000000000,Recurso Serviço de Atendimento Móvel de Urgência -,263028.00
+4172133120000000000,Recurso da média e alta complexidade Vigilância Sa,116023.03
+4172133160000000000,Recurso da Média e Alta Complexidade Ambulatorial,2863614.29
+4172133170000000000,Recurso do Núcleo de Apoio à Saúde da Família - NA,240000.00
+4172133180000000000,Recurso Farmácia Básica - Federal,290724.28
+4172133270000000000,Recurso Programa Saúde na Escola - PSE - Federal,11800.00
+4172133290000000000,Recurso Centro de Atendimento Psicossocial - CAPS,348196.79
+4172133310000000000,Recurso Centro de Especialidades Odontológicas - C,151800.00
+4172133380000000000,Programa de Melhoria do Acesso e da Qualidade - PMAQ,773500.00
+4172133390000000000,FAEC SAI - Mamografia para Rastreamento,25560.00
+4172133400000000000,Rede Brasil sem Miseria,15000.00
+4172134010000000000,Piso Básico Fixo - CRAS,60000.00
+4172134020000000000,Piso de Transição de Média Complexidade - APAE,5472.90
+4172134040000000000,Índice de Gestão Descentralizada - IGD BOLSA,33048.45
+4172134070000000000,Transf. FNAS - PFMC2 - Piso Fixo de Média Complexi,48000.00
+4172134080000000000,Transf. FNAS - PFMC3 - Piso Fixo de Média Complexi,6600.00
+4172134120000000000,Indice de Gestão Descentralizada - IGD SUAS,831.56
+4172134140000000000,Piso Básico Variável - SCFV,30352.94
+4172135010000000000,Transferências do Salário-Educação,5286012.57
+4172135020000000000,Transferências Diretas do FNDE referentes ao PDDE,1000.00
+4172135030000000000,Transferências Diretas do FNDE referentes ao PNAE,1536358.00
+4172135040000000000,Transferências Diretas do FNDE referentes ao PNATE,14038.66
+4172136000000000000,Transf. Financ. ICMS - Desoner - L.C. Nº 87/96,124082.16
+4172199000000000000,Outras Transferências da União,93252.68
+4172201010000000000,Cota-Parte do ICMS,29510834.45
+4172201020000000000,Cota-Parte do IPVA,4839380.33
+4172201040000000000,Cota-Parte do IPI sobre Exportação,459996.19
+4172201130000000000,Cota-Parte da Contrib.Interv.no Domínio Econômico,35248.46
+4172299010000000000,Transferência Abrigo - Custeio,359700.00
+4172299020000000000,CRAS ESTADO - Custeio,34407.37
+4172299050000000000,Recursos Farmácia Básica - Estadual,186561.04
+4172299060000000000,Recurso Centro de Especialidades Odontológicas - E,33560.00
+4172299070000000000,Recurso da Média e Alta Complexidade Ambulatorial,100168.80
+4172299100000000000,Recurso NASF - Estadual,42000.00
+4172401000000000000,Transf. de Recursos do FUNDEB,46686225.62
+4176101000000000000,Transf. de Conv. da União para o SUS,7.30
+4176201000000000000,Transf. Conv. Estados p/ SUS,32210.88
+4176202000000000000,Transf. Conv. Estados Destin Programas de Educação,292778.78
+4191138000000000000,Multas/Juros de Mora  s/ o IPTU,42185.50
+4191140000000000000,Multas/Juros de Mora s/ o ISS,165150.63
+4191198000000000000,Multas/Juros de Mora das Contrib de Melhoria,268.47
+4191199010000000000,Multas e Juros de Mora de Outros Tributos,23837.68
+4191311000000000000,Multas/Juros de Mora Div. Ativ. s/ IPTU,563736.58
+4191313000000000000,Multas/Juros de Mora Div. Ativ. s/ ISS,36232.02
+4191915010000000000,Multas Previstas na Legislação de Trânsito - Civil,252076.83
+4191915020000000000,Multas Previstas na Legislação de Trânsito - PMN,508315.42
+4191915030000000000,Multas Previstas na Legislação de Trânsito - Milit,252076.99
+4191935100000000000,Multas por ADM por Danos ao Meio Ambiente,53543.97
+4191999000000000000,Outras Multas,484899.82
+4192202010000000000,Restituições de Benefícios de Segurados em Óbito,19343.12
+4193111000000000000,Rec. Div. Ativ. do IPTU,1772498.95
+4193113000000000000,Rec. Div. Ativ. do ISS,163787.45
+4199002010000000000,Receita de Honorários de Advogados,125544.20
+4199099000000000000,Outras Receitas,280550.64
+4211405000000000000,Oper de Créd. Internas p/ Prog. de Modern.Adm Públ,867332.22
+4211499000000000000,Outras Operações de Crédito Internas - Contratuais,14235097.38
+4247101000000000000,Transf. de Convênio p/ SUS,158000.00
+4247102000000000000,Transf. Convênios da União Destin. Programa Educaç,1452952.63
+4247199020000000000,Transferência de convênio União - Outros,2677376.20
+4247199060000000000,Outras Transf. de Conv. da União - SUS União,173000.00
+4247299000000000000,Outras Transferências de Convênio dos Estados,2607140.78
+4721029010000000000,Contribuição Patronal - Ativo Civil,11396141.35
+4721029030000000000,Contribuição Patronal - Inativo Civil,609818.94
+4721029050000000000,Contribuição Patronal - Pensionista Civil,234908.25
+4760041000000000000,Receitas Intra-Orçamentárias - Serv. de Captação/A,313294.80
+9111202000000000000,DEDUÇÕES DA RECEITA - IPTU,-17510.19
+9111204340100000000,Deducao da receita de IRRF s/ Outros Rendimentos,-6.31
+9111204340200000000,Ded. da receita de IRRF s/Outros Rendimentos-Educ.,-3.05
+9111204340300000000,Ded. da receita de IRRF s/Outros Rendimentos-Saúde,-1.92
+9111208000000000000,DEDUÇÕES DA RECEITA - ITBI,-162581.93
+9111305000000000000,DEDUÇÕES DA RECEITA - ISS,-77032.86
+9112117000000000000,DEDUÇÃO DA RECEITA TAXA DE FISCALIZA,-1497.90
+9112129000000000000,Devolução de Taxa de Licença p/Execução de Obras,-8903.60
+9113004000000000000,DED. DA RECEITA - CONTRIBUIÇÃO P/ PAVIMENTAÇÃO,-594969.33
+9121029070000000000,DED. RECEITA - REC. DE CONTRIB-CONTRIB SERV. ATIVO,-314764.34
+9132501990300000000,Rec. de Remun.de Outros Dep. Banc. Rec. Vinc. - Estado,-1687.27
+9132501990400000000,Rec. de Remun.de Outros Dep. Banc. Rec. Vinc. - Re,-461.89
+9132501991200000000,DEDUÇÕES DA RECEITA - REC. REM. DEP. BANC. REC. VINCULA - TAXA DE ADMINISTRAÇÃO,-23724.10
+9132810000000000000,DED. DOS INVESTIMENTOS DO RPPS RENDA FIXA,-939699.45
+9133399000000000000,DEV. RECEITAS - OUTRAS REC. CONCESSÕES E PERMISSÕES - DIR. USO BENS PÚBLICOS,-4100.00
+9160014000000000000,DEVOLUÇÃO DE RECEITAS DE SERVIÇOS - INSPEÇÃO E FIS,-1549.63
+9160041000000000000,DED. RECEITA DE SERVIÇOS - SERV. DISTR. ÁGUA,-2824.88
+9172101020200000000,Cota-Parte do FPM - Educação,-4713011.63
+9172101050200000000,Dedução de Receita p/ Formação do FUNDEB - Educação,-5610.56
+9172136000000000000,Ded Rec p/ Form do FUNDEB - ICMS Deson - LC 87/96,-24816.38
+9172201010000000000,Dedução do ICMS para Formação do FUNDEB,-5902165.87
+9172201020000000000,Dedução de Receita para Formação do FUNDEB - IPVA,-967875.35
+9172201040000000000,Ded Cota  Parte IPI-Exp p/ Formação FUNDEB,-91999.14
+9176199000000000000,DEV. RECEITAS - Outras Transferências de Convênios da União,-5127.78
+9191915010000000000,DEDUÇÕES DE MULTAS -PARTE POLICIA CIVIL,-175.57
+9191915020000000000,DEDUÇÕES DE MULTAS - PARTE PMN,-351.16
+9191915030000000000,DEDUÇÃO DA RECEITA - MULTAS POL. MILITAR,-175.57
+9193111000000000000,DED. REC. DIV. ATIV. DO IPTU,-155.24
+9247102000000000000,DEDUÇÕES DA RECEITA - TRANSF. DE CONVÊNIOS DA UNIÃO DEST. A PROGRAMAS DE EDUCAÇÃO,-6576.59
+9247199020000000000,DEV. RECEITAS - TRANSFERÊNCIAS DE CONVÊNIOS DA UNIÃO - OUTROS,-1942.91
+9247299000000000000,Devolução - Outras Transferências de Convênio dos Estados,-76108.79

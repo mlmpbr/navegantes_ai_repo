@@ -1,0 +1,177 @@
+contaCodigo,contaDescricao,valorArrecadado
+4111303110000000000,Imposto sobre a Renda - Retido na Fonte - Trabalho - Principal,12070061.11
+4111303410000000000,Imposto sobre a Renda - Retido na Fonte - Outros Rendimentos - Principal,86574.34
+4111801110000000000,Imposto sobre a Propriedade Predial e Territorial Urbana - Principal,16526812.95
+4111801120000000000,Multas e Juros - Imposto sobre a Propriedade Predial e Territorial Urbana,87202.61
+4111801130000000000,Dívida Ativa - Imposto sobre a Propriedade Predial e Territorial Urbana,3317654.51
+4111801140000000000,Dívida Ativa - Multas e Juros - Imposto sobre a Propriedade Predial e Territorial Urbana,1088426.53
+4111801410000000000,Imposto sobre Transmissão Inter Vivos de Bens Imóveis e de Direitos Reais sobre Imóveis - Principal,7212684.25
+4111801420000000000,Imposto sobre Transmissão de Bens Imóveis - Multas e Juros,22.78
+4111801430000000000,Imposto sobre Transmissão de Bens Imóveis - Dívida Ativa,8681.29
+4111801440000000000,Imposto sobre Transmissão de Bens Imóveis - Dívida Ativa/Multas e Juros,444.39
+4111802310000000000,Imposto sobre Serviços de Qualquer Natureza - Principal,32998371.34
+4111802320000000000,Multas e Juros - Imposto sobre Serviços de Qualquer Natureza,191216.60
+4111802330000000000,Dívida Ativa - Imposto sobre Serviços de Qualquer Natureza,780859.53
+4111802340000000000,Dívida Ativa - Multas e Juros - Imposto sobre Serviços de Qualquer Natureza,98198.47
+4112101110100000000,"Taxa de Licença para Func. Estab.Com., Indústrias e Prestadoras de Serviços",1444251.50
+4112101110200000000,Taxa de Licença para Execução de Obras,387907.01
+4112101110400000000,"Taxas de Fiscalização de Temporada, Eventual e Ambulante",6145.35
+4112201110000000000,Taxas pela Prestação de Serviços - Principal,430.50
+4112201110100000000,Taxas pela Prestação de Serviços - Expediente,164433.59
+4112201119900000000,Outras Taxas pela Prestação de Serviços,297634.51
+4112801110100000000,Taxa de Fiscalização de Vigilância Sanitária,238231.11
+4121004210000000000,Contribuição do Servidor Ativo Civil para o RPPS - Principal,13954204.53
+4121004310000000000,Contribuição do Servidor Inativo para o RPPS - Principal,261782.71
+4121004410000000000,Contribuição do Pensionista para o RPPS - Principal,23383.41
+4124000110000000000,Contribuição para o Custeio do Serviço de Iluminação Pública - Principal,6741869.16
+4131002110000000000,"Concessão, Permissão, Autorização ou Cessão do Direito de Uso de Bens Imóveis Públicos - Principal",87968.00
+4132100110107000000,Remuneração de Aplicações de Recursos CIDE,2331.86
+4132100110108000000,Remuneração de Aplicações de Recursos COSIP,44846.15
+4132100110111000000,Remuneração de Aplicações de Recursos Convênio Polícia Civil,639.16
+4132100110112000000,Remuneração de Aplicações de Recursos Convênio Trânsito Prefeitura,3889.97
+4132100110118000000,Remuneração de Aplicações de Recursos FUNDEB,20984.70
+4132100110132000000,Remuneração de Aplicações de Recursos Convênios União Educação,1170.18
+4132100110133000000,Aplicação Financeira de Recursos Vinculados União Saúde,138.33
+4132100110134000000,Remuneração de Aplicações de Recursos Convênios União Outros,1864.95
+4132100110135000000,Remuneração de Aplicações de Recursos do SUAS/União,5218.20
+4132100110136000000,Remuneração de Aplicações de Recursos SALARIO EDUCAÇÃO,65949.97
+4132100110137010000,Remuneração de Aplicações de Recursos PNATE,51.76
+4132100110137020000,Remuneração de Aplicações de Recursos PNAE,3201.75
+4132100110137030000,Remuneração de Aplicações de Recursos PDDE,0.34
+4132100110137040000,REM DE DEP. BANCÁRIOS - OUTRAS TRANSFERÊNCIAS DO FNDE,260.54
+4132100110138010000,Aplicação Financeira Bloco Atenção Básica,12924.37
+4132100110138020000,Aplicação Financeira Bloco Atenção de Média e Alta Complexidade Ambulatorial e Hospitalar,4496.52
+4132100110138030000,Aplicação Financeira Bloco Vigilância em Saúde,2220.35
+4132100110138050000,Aplicação Financeira Bloco Gestão do SUS,1.01
+4132100110142000000,Remuneração de Aplicações de Recursos Outras Transferências da União,186.94
+4132100110162000000,Remuneração de Aplicações de Recursos Convênios Estado Educação,77.86
+4132100110163000000,Aplicação Financeira de Recursos Vinculados Estado Saúde,6499.10
+4132100110164000000,Remuneração de Aplicações de Recursos Convênios Estado Outros,852.58
+4132100110165000000,Remuneração de Aplicações de Recursos do SUAS/Estado,636.92
+4132100110167000000,Aplicação Financeira de Recursos Vinculados SUS Estado,6583.89
+4132100110179000000,Remuneração de Aplicações de Emendas Parlamentares Impositivas - Transferências do Estado,388.25
+4132100110183000000,Remuneração de Aplicações de Recursos Operações de Crédito,876.07
+4132100110204000000,Remuneração de Aplicações de Recursos SESAN,78138.86
+4132100110206000000,Remuneração de Aplicações de Recursos Diretamente Arrecadados pela Administração Indireta e Fundos,2350.46
+4132100110299000000,Remuneração de Aplicações de Recursos não Vinculados,1374476.93
+4132100410100000000,Remuneração dos Recursos do  RPPS - Renda Fixa,14419136.30
+4132100410200000000,Remuneração dos Recursos do  RPPS - Renda Variavel,34398539.84
+4132100410300000000,Remuneração dos Recursos do  RPPS - Fundo Imobiliário,420127.36
+4132100410400000000,Remuneração de Recursos do RPPS- Aplicação no Exterior,2385116.66
+4161001110200000000,Serviços Agropecuários,61923.51
+4161001110300000000,"Serviços de Captação, Adução, Tratamento, Reserva e Distribuição de Água",23273172.16
+4161001119900000000,Outros Serviços Administrativos e Comerciais Gerais,2802.61
+4161002110000000000,Inscrição em Concursos e Processos Seletivos - Principal,110404.00
+4161003110000000000,"Serviços de Registro, Certificação e Fiscalização - Principal",1846725.59
+4171801210000000000,Cota-Parte do Fundo de Participação dos Municípios - Cota Mensal - Principal,30534042.84
+4171801310000000000,Cota-Parte do Fundo de Participação dos Municípios  1% Cota entregue no mês de dezembro - Principal,1374043.19
+4171801410000000000,Cota-Parte do Fundo de Participação dos Municípios - 1% Cota entregue no mês de julho - Principal,1376972.68
+4171801510000000000,Cota-Parte do Imposto Sobre a Propriedade Territorial Rural - Principal,35551.87
+4171801810000000000,"Cota-Parte do Imposto Sobre Operações de Crédito, Câmbio e Seguro, ou Relativas a Títulos ou Valores Mobiliários  Comercialização do Ouro - Principal",216693.01
+4171802610000000000,Cota-Parte do Fundo Especial do Petróleo  FEP - Principal,491259.25
+4171803110100000000,Recurso Piso de Atenção Básica - PAB Fixo - Federal,5600.00
+4171803110200000000,Recurso Estratégia Saúde da Família - Federal,74780.00
+4171803110300000000,Recurso Programa Agente Comunitário de Saúde - PACS - Federal,908000.00
+4171803110400000000,Recurso Estratégia Saúde Bucal - Federal,28990.00
+4171803110500000000,Recurso do Núcleo de Apoio á Saúde da Família - NASF - Federal,20000.00
+4171803110600000000,Recurso Centro de Atendimento Psicossocial - CAPS,339660.00
+4171803110700000000,Centro de Especialidades Odontológicas - CEO - Federal,13200.00
+4171803110800000000,Programa de Melhoria do Acesso e da Qualidade - PMAQ,59113.68
+4171803111200000000,Incentivo Financeiro da ASP - Desempenho,598684.44
+4171803111300000000,Incentivo Financeiro da APS - PER CAPITA DE TRANSIÇÃO,444378.22
+4171803111400000000,Incentivo Financeiro da APS - Capitacão Ponderada,2624985.39
+4171803111500000000,Incentivo para Ações Estratégicas,524163.33
+4171803111600000000,Programa de informatização da APS,248200.00
+4171803210200000000,Serviço de Atendimento Móvel de Urgência - SAMU - Federal,263028.00
+4171803210300000000,Recurso da Média e Alta Complexidade Ambulatorial - MAC - Federal,3502608.54
+4171803210400000000,Leitos de Enfermaria Clinica de Retaguarda - MAC - Federal,310250.04
+4171803310100000000,Recurso Vigilância Epidemiológica - Federal,180268.41
+4171803310200000000,Incentivo Programa Nacional de HIV/AIDS e DST - Federal,93999.96
+4171803310300000000,Recurso da Média e Alta Complexidade Vigilância Sanitária,61314.06
+4171803310400000000,Incentivo de Qualificação das Ações de Dengue,91000.00
+4171803410100000000,Recurso Farmácia Básica - Federal,480702.48
+4171803510300000000,Implementação da Segurança Alimentar e Nutricional na Saúde,13000.00
+4171803910100000000,Transferência de Recursos Correntes do SUS - CORONAVIRUS,4409870.15
+4171805110000000000,Transferências do Salário-Educação - Principal,6830260.53
+4171805310000000000,Transferências Diretas do FNDE referentes ao Programa Nacional de Alimentação Escolar  PNAE - Principal,2115176.80
+4171805410000000000,Transferências Diretas do FNDE referentes ao Programa Nacional de Apoio ao Transporte do Escolar  PNATE - Principal,32253.88
+4171808110000000000,Transferências Advindas de Emendas Parlamentares Individuais - Principal,603000.00
+4171812110101000000,Piso de Proteção Social Básica,160981.78
+4171812110102000000,Piso de Proteção Especial de Média Cpmplexidade,143127.12
+4171812110103000000,Índice de Gestão Descebtralizada - IGD BOLSA FAMÍLIA,88510.42
+4171812110111000000,Piso de Alta Complexidade I - Criança/Adolescente,36530.79
+4171812110116000000,Piso de Transição de Média Complexidade,6664.30
+4171812110117000000,Ações do COVID no SUAS,519685.05
+4171899110000000000,Outras Transferências da União - Principal,559258.70
+4171899120000000000,Outras Transferências da União - Livre,2496368.42
+4171899910000000000,"COVID 19 - União Ações de Saúde e Assistência Social  (LC 173/2020 - Art. 5°, I-b)",1185557.97
+4171899920000000000,"COVID 19 - União sem Destinação Específica  (LC 173/2020 - Art. 5°, II-b)",8895354.93
+4172801110000000000,Cota-Parte do ICMS - Principal,55619376.52
+4172801210000000000,Cota-Parte do IPVA - Principal,7739338.94
+4172801310000000000,Cota-Parte do IPI - Municípios - Principal,757013.36
+4172801410000000000,Cota-Parte da Contribuição de Intervenção no Domínio Econômico - Principal,60700.94
+4172801910100000000,Emendas Parlamentares Impositivas - Transferências Correntes do Estado,568975.10
+4172803110100000000,Recursos Piso de Atenção Básica - PAB - Estadual,496830.46
+4172803110200000000,Recurso Estratégia Saúde da Família - Estadual,242685.43
+4172803110500000000,Recurso Farmácia Básica - Estadual,423368.29
+4172803110600000000,Recurso Centro de Especialidades Odontológicas - CEO - Estadual,60814.32
+4172803110700000000,Recurso da Média e Alta Complexidade Ambulatorial - MAC - Estadual,26243.68
+4172803110800000000,Recurso NASF - Estadual,43508.61
+4172807110300000000,Transferências SUAS Estado - CRAS Custeio,117545.24
+4172807110500000000,Transferencias SUAS Estado - BENEFICIO EVENTUAL VULNERABILIDADE MOMENTANEA ESTADO - CUSTEIO,155525.08
+4172810110000000000,Transferências de Convênio dos Estados para o Sistema Único de Saúde  SUS - Principal,550000.00
+4172810210000000000,Transferências de Convênio dos Estados Destinadas a Programas de Educação - Principal,127671.89
+4172810910000000000,Outras Transferências de Convênio dos Estados - Principal,10000.00
+4174000110000000000,Transferências de Instituições Privadas - Principal,804080.71
+4175801110000000000,Transferências de Recursos do Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação  FUNDEB - Principal,74643215.98
+4177801910000000000,Outras Transferências de Pessoas Físicas- Específicas de E/DF/M - Não Especificadas Anteriormente - Principal,250.00
+4191001111000000000,Multas Previstas na Legislação de Trânsito Convênio Trânsito - Militar,276165.89
+4191001111100000000,Multas Previstas na Legislação de Trânsito Convênio Trânsito - Civil,276165.82
+4191001111200000000,Multas Previstas na Legislação de Trânsito Convênio Trânsito - Prefeitura,1289128.78
+4191006110000000000,Multas Administrativas por Danos Ambientais - Principal,69420.00
+4192206110000000000,Restituição de Despesas de Exercícios Anteriores - Principal,3885.13
+4192299110000000000,Outras Restituições - Principal,51607.88
+4199003110000000000,Compensações Financeiras entre o Regime Geral e os Regimes Próprios de Previdência dos Servidores - Principal,1556223.41
+4199012210000000000,Ônus de Sucumbência - Principal,378710.37
+4199099110000000000,Outras Receitas - Primárias - Principal,108430.32
+4199099120000000000,Outras Receitas - Primárias - Multas e Juros,29842.40
+4199099130000000000,Outras Receitas - Primárias - Dívida Ativa,508322.44
+4199099140000000000,Outras Receitas - Primárias - Dívida Ativa - Multas e Juros,213346.23
+4211200110000000000,Operações de Crédito Contratuais - Mercado Interno - Principal,7646631.38
+4241803910100000000,Transferência de Recursos de Capital do SUS - CORONAVIRUS,69057.00
+4241810110000000000,Transferências de Convênio da União para o Sistema Único de Saúde  SUS - Principal,101763.00
+4241810210000000000,Transferências de Convênio da União destinadas a Programas de Educação - Principal,1236862.55
+4241810910000000000,Outras Transferências de Convênios da União - Principal,1407503.39
+4241899110000000000,Outras Transferências da União - Principal,300000.00
+4242810110000000000,Transferências de Convênios dos Estados para o Sistema Único de Saúde  SUS - Principal,99996.21
+4242810910000000000,Outras Transferências de Convênio dos Estados - Principal,399918.90
+4242899110100000000,Emendas Parlamentares Impositivas - Transferências de Capital do Estado,501964.90
+4721004210000000000,Contribuição Patronal para o RPPS - Ativos,20491085.78
+4721004310000000000,Contribuição Patronal para o RPPS - Inativos,2225376.32
+4721004410000000000,Contribuição Patronal para o RPPS - Pensionistas,510946.89
+4761001110300000000,"Receitas Intra-Orçamentárias/Serviços de Captação,Adução,Tratamento...",318052.49
+4791001111000000000,Intra Orçamentárias - Multas Previstas na Legislação Convênio Trânsito - Militar,284.26
+4791001111100000000,Intra Orçamentárias - Multas Previstas na Legislação Convênio Trânsito - Civil,284.26
+4791001111200000000,Intra Orçamentárias - Multas Previstas na Legislação Convênio Trânsito - Prefeitura,1326.56
+9111801110000000000,(R)Imposto sobre a Propriedade Predial e Territorial Urbana - Principal,-57260.81
+9111801410000000000,(R)Imposto sobre Transmissão Inter Vivos de Bens Imóveis e de Direitos Reais sobre Imóveis - Principal,-39381.71
+9111802310000000000,(R)Imposto sobre Serviços de Qualquer Natureza - Principal,-40148.75
+9112801110100000000,Dedução da Receita - Taxa de Fiscalização de Vigilância Sanitária - Principal,-397.50
+9113804110000000000,Deduções da Receita - Devoluções - Contribuição de Melhoria para Pavimentação e Obras Complementares - Principal,-3044.36
+9132100110132000000,Deduções da Receita - Devolução de Remuneração de Aplicações de Recursos Convênios União- Educação,-59.51
+9132100110134000000,Deduções de Remuneração de Aplicações de Recursos Convênios União Outros,-74.32
+9132100110299000000,Remuneração de Aplicações de Recursos Não Vinculados,-183944.56
+9132100410100000000,Remuneração dos Recursos do RPPS - Renda Fixa,-3308756.60
+9132100410200000000,Remuneração dos Recursos do RPPS - Renda Variável,-7012379.39
+9132100410300000000,Remuneração dos Recursos do RPPS - Fundo Imobiliário,-124529.72
+9132100410400000000,Remuneração de Recursos do RPPS - Aplicações no Exterior,-188624.74
+9161003110000000000,"Devoluções da Receita - Serviços de Registro, Certificação e Fiscalização - Principal",-50551.35
+9171801210000000000,(R)Cota-Parte do Fundo de Participação dos Municípios - Cota Mensal - Principal,-6106808.31
+9171801510000000000,Cota-Parte do Imposto Sobre a Propriedade Territorial Rural - Principal,-7110.29
+9172801110000000000,(R)Cota-Parte do ICMS - Principal,-11172578.14
+9172801210000000000,(R)Cota-Parte do IPVA - Principal,-1547866.81
+9172801310000000000,(R)Cota-Parte do IPI - Municípios - Principal,-151402.57
+9191001111000000000,Deduções Multas Previstas na Legislação de Trânsito Convênio Trânsito - Militar,-117.11
+9191001111100000000,Deduções Multas Previstas na Legislação de Trânsito Convênio Trânsito - Civil,-29.07
+9191001111200000000,Deduções Multas Previstas na Legislação de Trânsito Convênio Trânsito - Prefeitura,-341.09
+9241810910000000000,Deduções de Outras Transferências de Convênios da União - Principal,-2394.90
