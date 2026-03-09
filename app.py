@@ -21,13 +21,28 @@ def converter_para_float(valor):
     if isinstance(valor, (int, float)): return float(valor)
     try:
         v = str(valor).replace('R$', '').strip()
-        # Se for formato brasileiro (ex: 1.000,50), removemos o ponto e trocamos vírgula por ponto
+        
+        # Formato brasileiro (ex: 1.234.567,89 ou 1.000,00)
         if ',' in v and '.' in v and v.rfind(',') > v.rfind('.'):
             v = v.replace('.', '').replace(',', '.')
-        elif ',' in v and '.' not in v: # Apenas vírgula (ex: 1000,50)
-            v = v.replace(',', '.')
+        # Formato americano (ex: 1,234,567.89 ou 1,000.00)
+        elif ',' in v and '.' in v and v.rfind('.') > v.rfind(','):
+            v = v.replace(',', '')
+        # Apenas vírgula (ex: 1000,50 -> BR) ou (1,000,000 -> US)
+        elif ',' in v and '.' not in v:
+            if v.count(',') > 1: # Múltiplas vírgulas = padrão americano
+                v = v.replace(',', '')
+            else: # Uma vírgula = decimal brasileiro
+                v = v.replace(',', '.')
+        # Apenas ponto (ex: 1000.50 -> US) ou (1.000.000 -> BR)
+        elif '.' in v and ',' not in v:
+            if v.count('.') > 1: # Múltiplos pontos = milhares brasileiros
+                v = v.replace('.', '')
+            # Se for só um ponto (ex: 539.72), o Python lê nativamente sem alterar.
+            
         return float(v)
-    except: return 0.0
+    except: 
+        return 0.0
 
 def limpar_colunas(df):
     if df.empty: return df
